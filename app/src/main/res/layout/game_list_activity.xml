@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:src="@drawable/pyeongchang_logo"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    
+    <ImageButton
+        android:id="@+id/biathlonImg"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:background="@drawable/biathlon_img"
+        android:padding="0dp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="바이에슬론"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"
+        />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="스피드 스케이팅"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            />
+
+        <ImageButton
+            android:id="@+id/speedSkatingImg"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/speed_skating_img"
+            android:padding="0dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/figureSkatingImg"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/figure_skating_img"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="피겨 스케이팅"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/alpineSkiingImg"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/alpine_skiing_img"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="알파인 스키"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/bobsleighImg"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/bobsleigh_img"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="봅슬레이"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/crossCountrySkiingImg"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/cross_country_skiing_img"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="크로스 컨트리 스키"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/curlingImg"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/curling_img"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="컬링"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/freeStyleSkiingImg"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/free_style_skiing_img"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="프리스타일 스키"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/iceHockeyImg"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/ice_hockeky_img"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아이스하키"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/lugeImg"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/luge_img"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="루지"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/nordicCombinedImg"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/nordic_combined_img"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="노르딕 복합"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/skeletonImg"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/skeleton_img"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="스켈랙톤"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/snowboardImg"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/snowboard_img"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="스노우보드"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/shortTrackImg"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/short_track_speedskating_img"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="쇼트트랙"
+            android:layout_marginTop="155dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            />
+
+    </FrameLayout>
+
+
+</LinearLayout>
+    </ScrollView>

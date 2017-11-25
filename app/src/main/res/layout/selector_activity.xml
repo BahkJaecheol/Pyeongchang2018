@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:text="일정을 선택해 주세요"
+        android:textColor="#383838"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_game"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:text="종목별 일정"
+            android:textSize="30dp"
+            />
+
+        <Button
+            android:id="@+id/btn_date"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:text="날짜별 일정"
+            android:textSize="30dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

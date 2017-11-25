@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFFFF">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:text="날짜를 선택하세요"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="59dp"
+        tools:text="날짜를 선택하세요" />
+
+<!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+    <!---->
+    <!--<Button-->
+        <!--android:id="@+id/btn_mon"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:text="Button"-->
+        <!--tools:layout_editor_absoluteX="70dp"-->
+        <!--tools:layout_editor_absoluteY="157dp"-->
+        <!--tools:text="월" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_tue"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:text="Button"-->
+        <!--tools:layout_editor_absoluteX="118dp"-->
+        <!--tools:layout_editor_absoluteY="157dp"-->
+        <!--tools:text="화" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_wed"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:text="Button"-->
+        <!--tools:layout_editor_absoluteX="172dp"-->
+        <!--tools:layout_editor_absoluteY="157dp"-->
+        <!--tools:text="수" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_thu"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:text="Button"-->
+        <!--tools:layout_editor_absoluteX="227dp"-->
+        <!--tools:layout_editor_absoluteY="157dp"-->
+        <!--tools:text="목" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_fri"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:text="Button"-->
+        <!--tools:layout_editor_absoluteX="276dp"-->
+        <!--tools:layout_editor_absoluteY="157dp"-->
+        <!--tools:text="금" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_sat"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:text="Button"-->
+        <!--android:textColor="#FFFF0000"-->
+        <!--tools:layout_editor_absoluteX="328dp"-->
+        <!--tools:layout_editor_absoluteY="157dp"-->
+        <!--tools:text="토" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_sun"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:text="Button"-->
+        <!--android:textColor="#FFFF0000"-->
+        <!--tools:layout_editor_absoluteX="16dp"-->
+        <!--tools:layout_editor_absoluteY="157dp"-->
+        <!--tools:text="일" />-->
+    <!---->
+<!--</LinearLayout>-->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_8"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="8일 (목)"
+            tools:layout_editor_absoluteX="227dp"
+            tools:layout_editor_absoluteY="222dp"
+            tools:text="8일 (목)" />
+
+        <Button
+            android:id="@+id/btn_9"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="9일 (금)"
+            tools:layout_editor_absoluteX="276dp"
+            tools:layout_editor_absoluteY="222dp"
+            tools:text="9일 (금)" />
+
+        <Button
+            android:id="@+id/btn_10"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="10일 (토)"
+            tools:layout_editor_absoluteX="328dp"
+            tools:layout_editor_absoluteY="222dp"
+            android:textColor="#FFFF0000"
+            tools:text="10일 (토)" />
+
+
+        <Button
+            android:id="@+id/btn_11"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="11일 (일)"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="278dp"
+            android:textColor="#FFFF0000"
+            tools:text="11일 (일)" />
+
+        <Button
+            android:id="@+id/btn_12"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="12일 (월)"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="278dp"
+            tools:text="12일 (월)" />
+
+        <Button
+            android:id="@+id/btn_13"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="13일 (화)"
+            tools:layout_editor_absoluteX="118dp"
+            tools:layout_editor_absoluteY="278dp"
+            tools:text="13일 (화)" />
+
+        <Button
+            android:id="@+id/btn_14"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="14일 (수)"
+            tools:layout_editor_absoluteX="172dp"
+            tools:layout_editor_absoluteY="278dp"
+            tools:text="14일 (수)" />
+
+            <Button
+                android:id="@+id/btn_15"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="15일 (목)"
+                tools:layout_editor_absoluteX="227dp"
+                tools:layout_editor_absoluteY="278dp"
+                tools:text="15일 (목)" />
+
+        <Button
+            android:id="@+id/btn_16"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="16일 (금)"
+            tools:layout_editor_absoluteX="276dp"
+            tools:layout_editor_absoluteY="278dp"
+            tools:text="16일 (금)" />
+
+        <Button
+            android:id="@+id/btn_17"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="17일 (토)"
+            tools:layout_editor_absoluteX="328dp"
+            tools:layout_editor_absoluteY="278dp"
+            android:textColor="#FFFF0000"
+            tools:text="17일 (토)" />
+
+
+        <Button
+            android:id="@+id/btn_18"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="18일 (일)"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="340dp"
+            android:textColor="#FFFF0000"
+            tools:text="18일 (일)" />
+
+
+        <Button
+            android:id="@+id/btn_19"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="19일 (월)"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="340dp"
+            tools:text="19일 (월)" />
+
+        <Button
+            android:id="@+id/btn_20"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="20일 (화)"
+            tools:layout_editor_absoluteX="118dp"
+            tools:layout_editor_absoluteY="340dp"
+            tools:text="20일 (화)" />
+
+        <Button
+            android:id="@+id/btn_21"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="21일 (수)"
+            tools:layout_editor_absoluteX="172dp"
+            tools:layout_editor_absoluteY="340dp"
+            tools:text="21일 (수)" />
+
+        <Button
+            android:id="@+id/btn_22"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="22일 (목)"
+            tools:layout_editor_absoluteX="227dp"
+            tools:layout_editor_absoluteY="340dp"
+            tools:text="22일 (목)" />
+
+        <Button
+            android:id="@+id/btn_23"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="23일 (금)"
+            tools:layout_editor_absoluteX="276dp"
+            tools:layout_editor_absoluteY="340dp"
+            tools:text="23일 (금)" />
+
+        <Button
+            android:id="@+id/btn_24"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="24일 (토)"
+            tools:layout_editor_absoluteX="328dp"
+            tools:layout_editor_absoluteY="340dp"
+            android:textColor="#FFFF0000"
+            tools:text="24일 (토)" />
+
+        <Button
+            android:id="@+id/btn_25"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="25일 (일)"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="399dp"
+            android:textColor="#FFFF0000"
+            tools:text="25일 (일)" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
